@@ -25,10 +25,17 @@ Este sistema esta em desenvolvimento com o intuito para o controle de movimento 
   **
   *
   * Obs: Ubuntu 20.04
+  * 1º Metodo
   * *sudo add-apt-repository ppa:rock-core/qt4
   * *sudo apt-get update
+  * sudo apt-get install python-qt4
+  * sudo apt-get install libqt4-dev
+  * sudo apt-get install pyqt4-dev-tools
+  * sudo apt-get install pyqt4.qsci-dev
+  * sudo apt install python3-pyqt4
+  * 
   * **
-  *
+  * 2º Metodo
   * wget http://archive.ubuntu.com/ubuntu/pool/universe/q/qt-assistant-compat/libqtassistantclient4_4.6.3-7build1_amd64.deb
   * sudo apt-get install ./libqtassistantclient4_4.6.3-7build1_amd64.deb
   * wget http://archive.ubuntu.com/ubuntu/pool/universe/p/python-qt4/python-qt4_4.12.1+dfsg-2_amd64.deb
