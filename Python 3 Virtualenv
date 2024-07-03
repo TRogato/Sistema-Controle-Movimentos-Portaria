@@ -1,0 +1,30 @@
+# Install Python 3
+$ sudo apt-get install python3
+
+# Install python3-virtualenv
+$ sudo apt-get install python3-virtualenv
+
+# You can checkout you virtualenv version
+$ virtualenv --version
+
+# Create you virtualenv in the folder you that want to
+$ cd /var/www/html/Sistema-Controle-Movimentos-Portaria
+$ virtualenv --python=/var/www/html/Sistema-Controle-Movimentos-Portaria /var/www/html/Sistema-Controle-Movimentos-Portaria
+# Example
+$ cd /var/www/html/Sistema-Controle-Movimentos-Portaria
+$ virtualenv --python=/usr/bin/python3.7 venv
+
+# Check if the folder was created
+$ ls
+
+# Activate your virtualenv
+$ source venv/bin/activate
+
+# Check yuo python version on this virtualenv
+python --version
+
+# Check yuo pip version on this virtualenv
+$ pip --version
+
+# When you finish working, you can deacgtivate your virtualenv
+$ deavtivate
